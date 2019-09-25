@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/main.css"/>
+    
+    <title>NBA</title>
+</head>
+<body>
+    <h1>The NBA</h1>
+    <form action="http://localhost:3000/players" method="POST">
+        <label for="name">Player Name</label>
+        <input type="text" name="name" id="name"/>
+
+        <label for="number">Player Number</label>
+        <input type="number" name="number" id="number"/>
+
+        <label for="team_dropdown"> Player's Team</label>
+        <select name="team_id" id="team_dropdown">
+
+        </select>
+        
+        <input type="submit"/>
+        
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
